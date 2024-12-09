@@ -1,0 +1,84 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Loading indicator */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #3498db;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.error-message {
+  color: #e74c3c;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.table-container {
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+.contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.contacts-table th, .contacts-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.contacts-table th {
+  background-color: #083F64;
+  color: white;
+  font-weight: bold;
+}
+
+.contacts-table td {
+  background-color: #ffffff;
+}
+
+.contacts-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.contacts-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.contacts-table td, .contacts-table th {
+  border-right: 1px solid #ddd;
+}
+
+.contacts-table td:last-child, .contacts-table th:last-child {
+  border-right: none;
+}
+
